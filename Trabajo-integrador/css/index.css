@@ -301,3 +301,47 @@
     transform: scale(1.2);
     color: azure;
 }
+@media(max-width:768px){
+    .header h2{
+        display: none;
+    }
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .presentacion{
+        width: 40%;
+        height: 50%;
+    }
+    .beneficios{
+        width: 40%;
+        height: 50%;
+    }
+    .cursos-card{
+        flex-direction: column;
+        margin-top: 50%;
+    }
+    .card{
+    width: 40%;
+    height: 50%;
+    }
+    .contact{
+        padding-top: 50%;
+    }
+}
+
+@media(max-width: 425px){
+    .presentacion h1{
+        font-size: 1rem;
+    }
+
+    .beneficios h2{
+        font-size: 1rem;
+    }
+
+    .presentacion p{
+        font-size: 1rem;
+    }
+    
+}
